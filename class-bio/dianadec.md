@@ -1,5 +1,5 @@
 # Diana De Cotiis
-![Picture of Diana](https://avatars2.githubusercontent.com/u/35785153?s=460&v=4)
+![Picture of Diana](https://avatars2.githubusercontent.com/u/35785153?s=460&v=4 =10x10)
 
 ## I was born in...
 Vancouver
