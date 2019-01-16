@@ -1,5 +1,5 @@
 # Caitlin Ing
-![Picture of Caitlin](https://avatars1.githubusercontent.com/u/46428853?s=460&v=4)
+<img src="https://avatars1.githubusercontent.com/u/46428853?s=460&v=4" width="200" height="200" />
 
 ## I was born in...
 Victoria 
