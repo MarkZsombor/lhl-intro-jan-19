@@ -1,5 +1,5 @@
 # Lita Lopez
-![Picture of Lita](https://scontent.fyvr2-1.fna.fbcdn.net/v/t1.0-9/10994159_10204682828607966_3397955789227013128_n.jpg?_nc_cat=100&_nc_ht=scontent.fyvr2-1.fna&oh=96316c41495127f5b9a0216e8a00f2bb&oe=5CCE8934)
+![Picture of Lita](https://scontent.fyvr2-1.fna.fbcdn.net/v/t1.0-9/10994159_10204682828607966_3397955789227013128_n.jpg?_nc_cat=100&_nc_ht=scontent.fyvr2-1.fna&oh=96316c41495127f5b9a0216e8a00f2bb&oe=5CCE8934 =250X50)
 
 ## I was born in...
 Winnipeg
