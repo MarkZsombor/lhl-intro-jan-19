@@ -5,10 +5,10 @@
 This repo holds useful information to the Lighthouse Labs Intro to the Web course, Jan2019 Victoria cohort.
 
 
-To view the vocabulary we have learned so far, click [here](https://github.com/markzsombor/lhl-intro-jan-2019/blob/master/vocab.md).
+To view the vocabulary we have learned so far, click [here](https://github.com/MarkZsombor/lhl-intro-jan-19/blob/master/vocab.md).
 
 
-To view the lecture notes and videos from past lectures, click [here](https://github.com/markzsombor/lhl-intro-jan-2019/blob/master/lecture-notes.md).
+To view the lecture notes and videos from past lectures, click [here](https://github.com/MarkZsombor/lhl-intro-jan-19/blob/master/lecture-notes.md).
 
 ### Some other useful links...
 * [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
