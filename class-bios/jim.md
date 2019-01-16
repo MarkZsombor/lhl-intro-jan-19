@@ -1,5 +1,5 @@
 # Jim BJorkes
-![Picture of Jim](https://www.linkedin.com/in/jim-bjorkes-54097615/)
+<img src="https://static1.squarespace.com/static/586ea3d5893fc02022f2b544/t/5895116515d5dbc895123550/1486164327978/?format=500w" width="250"/>
 
 ## I was born in...
 a hospital
