@@ -1,8 +1,8 @@
 # Jim BJorkes
-![Picture of Jim]<img src="https://static1.squarespace.com/static/586ea3d5893fc02022f2b544/t/5895116515d5dbc895123550/1486164327978/?format=500w" width="250"/>
+<img src="https://static1.squarespace.com/static/586ea3d5893fc02022f2b544/t/5895116515d5dbc895123550/1486164327978/?format=500w" width="250"/>
 
 ## I was born in...
-Vancouver General Hospital
+a hospital
 
 ## My top three favourite cats are...
 * Garfield
