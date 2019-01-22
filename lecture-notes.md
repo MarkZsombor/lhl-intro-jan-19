@@ -3,7 +3,6 @@
 * [Lecture]() I messed up recording, so no video this lecture!
 ---
 # W1D2
-
 Welcome to the second day of the first week! Now with your new-found knowledge into the world of HTML, you're on your way to creating anything you can think of.
 
 ## Front End Ecosystem
