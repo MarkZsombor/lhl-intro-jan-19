@@ -1,8 +1,9 @@
-W1D1
+# W1D1
 * [Slides](https://docs.google.com/presentation/d/1cVwsK0iSV_howeHnWf7eVHTqOM8Ov0v9tjYBVYPjyLs/edit?usp=sharing)
 * [Lecture]() I messed up recording, so no video this lecture!
 ---
-W1D2
+# W1D2
+
 Welcome to the second day of the first week! Now with your new-found knowledge into the world of HTML, you're on your way to creating anything you can think of.
 
 ## Front End Ecosystem
@@ -37,6 +38,4 @@ e.g. `<a href="https://lighthouselabs.ca">Take me to Lighthouse Labs</a>`
 Here are the slides from today: [Wonderful Slides!](https://docs.google.com/presentation/d/1OpSp1lRXnnxO6euWuTusn7DSeYtEuzZK7aryEMw6TS8/edit?usp=sharing)
 
 And a [handy little HTML cheat sheet](https://websitesetup.org/html5-cheat-sheet/).
-
-See you next Thursday!
 ---
