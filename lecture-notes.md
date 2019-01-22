@@ -37,4 +37,5 @@ e.g. `<a href="https://lighthouselabs.ca">Take me to Lighthouse Labs</a>`
 Here are the slides from today: [Wonderful Slides!](https://docs.google.com/presentation/d/1OpSp1lRXnnxO6euWuTusn7DSeYtEuzZK7aryEMw6TS8/edit?usp=sharing)
 
 And a [handy little HTML cheat sheet](https://websitesetup.org/html5-cheat-sheet/).
+
 ---
