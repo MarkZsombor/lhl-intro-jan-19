@@ -143,7 +143,7 @@ Nice site to pick out your [colours](https://color.adobe.com/create/color-wheel/
 
 Some more advanced CSS with flexbox: https://flexboxfroggy.com/
 
-#W2D2
+# W2D2
 
 ## Ruby 101
 
