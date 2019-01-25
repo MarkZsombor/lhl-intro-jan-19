@@ -142,3 +142,24 @@ Nice site to pick out your [colours](https://color.adobe.com/create/color-wheel/
 [CSS Cheat Sheet](https://websitesetup.org/css3-cheat-sheet/)
 
 Some more advanced CSS with flexbox: https://flexboxfroggy.com/
+
+#W2D2
+
+## Ruby 101
+
+Today we went through the basics of programming within the context of Ruby programming language.
+
+We discussed data types, operators, variables and methods. 
+
+We also went through how you can control the flow of data in a program using conditional statements and what an algorithm is.
+
+We had a little chat about Sinatra, then went to work.
+
+[Here’s the slides!](https://docs.google.com/presentation/d/1WZ2ZF-14TBMn8rp7u3Vr1yWcHCHcNP2M8DxDR4hPlho/edit?usp=sharing)
+
+[Here’s a super excite lecture video I’m sure you’re all dying to watch again](https://youtu.be/161g5XxE0T0)
+
+Here’s a nice resource for learning [MOAR RUBY](https://www.codecademy.com/courses/learn-ruby/)
+
+[Here’s a song called Ruby, it has nothing to do with programming](https://www.youtube.com/watch?v=qObzgUfCl28)
+
