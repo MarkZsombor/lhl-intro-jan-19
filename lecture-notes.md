@@ -163,3 +163,27 @@ Here’s a nice resource for learning [MOAR RUBY](https://www.codecademy.com/cou
 
 [Here’s a song called Ruby, it has nothing to do with programming](https://www.youtube.com/watch?v=qObzgUfCl28)
 
+#W3D1
+
+## Ruby 2: Ruby's Revenge
+
+Today we covered more Ruby.
+
+First we reviewed last week: data types, variables, and methods.
+
+Then we discussed blocks, the concept of DRY(don't repeat yourself) and looked 
+at some loops before walking through some approaches to Fizzbuzz with some 
+pluses and minuses for each.
+
+Lastly we talked about templating with ERB.
+
+`.erb` files allow you to mix ruby with your html, creating something that won't
+be static like normal HTML and can change depending on the user and their
+actions.
+
+
+[Here’s the slides!](https://docs.google.com/presentation/d/10Sh7JDLw7DFi5KZqmjSozPU_ePqgamXvrNTFCBcMIME/edit?usp=sharing)
+
+[Here’s a super excite lecture video I’m sure you’re all dying to watch again](https://youtu.be/1ASjIuwTf3c)
+
+Last week I made a dumb music joke about Ruby, and as its [Tuesday...](https://www.youtube.com/watch?v=ADtnUC_ctNk)
