@@ -1,4 +1,7 @@
 def yellow_pages(word)
+  if word.length != 10
+    return false
+  end
   word.upcase.each_char do |let|
     if (let == "A") || (let == "B") || (let == "C")
       print 2
@@ -25,6 +28,9 @@ end
 
 #Alternative
 def get_phone_number(word) 
+  if word.length != 10
+    return false
+  end
   word = word.downcase.split("")
   output = ""
   word.each do |let|    
@@ -54,6 +60,9 @@ end
 
 #Alternative w/ switch
 def get_phone_number2(word) 
+  if word.length != 10
+    return false
+  end
   word = word.downcase.split("")
   output = ""
   word.each do |let|    
@@ -83,5 +92,6 @@ def get_phone_number2(word)
 end
 
 yellow_pages("MarkIsCool")
+yellow_pages("MarkIsntCool")
 get_phone_number("MarkIsCool")
 get_phone_number2("MarkIsCool")
