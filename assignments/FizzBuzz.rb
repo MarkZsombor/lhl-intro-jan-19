@@ -27,3 +27,19 @@ end
     puts num
   end
 end
+
+#Other Alternate
+(1..100).each do |num| 
+  if num % 3 == 0 
+    print "Fizz"
+  end
+  if num % 5 == 0
+    print "Buzz"
+  end
+  if num % 3 == 0 or num % 5 == 0 
+    #this is needed so that if somthing was printed already you need to move to the next line
+    print "\n"
+  else
+    puts num
+  end
+end
