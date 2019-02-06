@@ -188,6 +188,108 @@ actions.
 
 Last week I made a dumb music joke about Ruby, and as its [Tuesday...](https://www.youtube.com/watch?v=ADtnUC_ctNk)
 ---
+# W3D2
+
+[Slides](https://docs.google.com/presentation/d/1GONSJuv5TDwY4ljh9A51rf0U2nP17Fl94a4heKHNRus/edit?usp=sharing) first.
+
+## All about that database
+Think of a database kind of like a bunch of excel spreadsheets. As in, they both have ***ROWS*** and ***COLUMNS***, and each individual spreadsheet is a ***TABLE***.
+
+* Table: set of related data.
+* Row: one item inside of a table
+* Column: one attribute to an item
+
+### Relational database
+This is where an attribute in one table will be related to an attribute in another table.
+
+e.g. ***id*** in the ***users*** table is related to ***user_id*** in the ***finstagram_posts*** table.
+
+### How do we 'talk' to the database in Sinatra?
+We use an ***Object Relational Mapper*** called ***ActiveRecord***! This is how we type ruby code that will get converted to SQL code the relational database can understand. Today we did this with the help of ***tux*** but soon we'll code it in our ***.rb*** files.
+
+e.g. 
+
+```
+    user = User.new({ username: "sharky_j", avatar_url: "http://naserca.com/images/sharky_j.jpg" })
+    user.save
+```
+
+ActiveRecord allows us to preform ***CRUD*** actions (like the ***create*** above):
+
+* Create
+* Read
+* Update
+* Delete
+
+To use ActiveRecord to interact with the database, we first have to create the models in Sinatra. In our case:
+
+```
+    class User < ActiveRecord::Base
+
+    end
+```
+
+will allow us to interact with the ***users*** table in the database.
+
+We did a lot of ***read*** actions from CRUD so here's a breakdown of them in ActiveRecord followed by SQL:
+
+#### Returns all rows in the users table
+
+***AR***:
+
+```
+    User.all
+```
+
+***SQL***:
+
+```
+    SELECT *
+    FROM users
+```
+
+----
+
+
+#### Returns all posts by a specific user
+
+***AR***:
+
+```
+    FinstagramPost.where({ user_id: 2 })
+```
+
+***SQL***:
+
+```
+    SELECT *
+    FROM finstagram_posts
+    WHERE user_id = 2
+```
+
+----
+
+
+#### Returns text column from the comments table from a specific user and orders by created_at (newest)
+
+***AR***:
+
+```
+    Comments.select("text").where({ user_id: 1 }).order( created_at: :asc )
+```
+
+***SQL***:
+
+```
+    SELECT text
+    FROM comments
+    WHERE user_id = 1
+    ORDER BY created_at ASC
+```
+
+I'm sure you're all tired of cheat sheets by this point but what's one more?
+[SQL cheat sheet](https://www.codecademy.com/articles/sql-commands) 
+---
 # W4D1
 
 Databases: the most exciting thing since white bread.
