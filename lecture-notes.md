@@ -142,7 +142,7 @@ Nice site to pick out your [colours](https://color.adobe.com/create/color-wheel/
 [CSS Cheat Sheet](https://websitesetup.org/css3-cheat-sheet/)
 
 Some more advanced CSS with flexbox: https://flexboxfroggy.com/
-
+---
 # W2D2
 
 ## Ruby 101
@@ -162,8 +162,8 @@ We had a little chat about Sinatra, then went to work.
 Here’s a nice resource for learning [MOAR RUBY](https://www.codecademy.com/courses/learn-ruby/)
 
 [Here’s a song called Ruby, it has nothing to do with programming](https://www.youtube.com/watch?v=qObzgUfCl28)
-
-#W3D1
+---
+# W3D1
 
 ## Ruby 2: Ruby's Revenge
 
@@ -187,3 +187,33 @@ actions.
 [Here’s a super excite lecture video I’m sure you’re all dying to watch again](https://youtu.be/1ASjIuwTf3c)
 
 Last week I made a dumb music joke about Ruby, and as its [Tuesday...](https://www.youtube.com/watch?v=ADtnUC_ctNk)
+---
+# W4D1
+
+Databases: the most exciting thing since white bread.
+
+## OOP
+
+Ruby's strength comes from its design around Object Oriented Programming, in which everything is an object.
+
+Using Classes we can define a blueprint, and create objects based on these classes as needed.
+
+Classes can inherit properties from other classes allowing for creating Classes with similar properties.
+
+Everything in Ruby is a class (or an instance of a class), this is why there exists methods for every data type.
+
+## ActiveRecord 2: The Recording
+
+ActiveRecord helps to manage the database by creating a class whose properties as the same as our table columns.
+
+By extending the ActiveRecord class, we gain a lot of functionality with little code!
+
+ActiveRecord gives up a bunch of built in methods to search through the database and find useful information, such as `.find(<num>)`, `.count`, `.find_by({key: value})`
+
+What ActiveRecord doesn't know is how our tables are related to one another, so when we define a class we need to add the `has_many` and `belongs_to` properties to describe these relationships.
+
+Finally, we can add methods to our classes which we can then use elsewhere (such as our server or in `.erb` files) to use the data we've retrieved from the database in useful ways.
+
+[Slides](https://docs.google.com/presentation/d/1s6YfNx1dTsBs4uxEVfKrIL6PiZ2oJneHWNc-pYorKTw/edit?usp=sharing)
+
+[Video](https://youtu.be/SOtR5fvgb5Y)
