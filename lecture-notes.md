@@ -319,3 +319,40 @@ Finally, we can add methods to our classes which we can then use elsewhere (such
 [Slides](https://docs.google.com/presentation/d/1s6YfNx1dTsBs4uxEVfKrIL6PiZ2oJneHWNc-pYorKTw/edit?usp=sharing)
 
 [Video](https://youtu.be/SOtR5fvgb5Y)
+
+
+# W5D1 Class notes
+
+## HTTP Review: HTTP is based on 4 methods:
+
+	Get (view/read something)
+	Post (create something)
+	Put (update something)
+	Delete (.... delete something)
+
+## Sessions and Cookies
+
+HTTP is stateless, it doesn’t remember your requests
+
+Therefore we have to save information somewhere when a user logs in, a special hash called a session which is stored in a cookie.
+
+Cookie is basically information stored in your browser by the website.
+
+Session data is sent to the server along with the HTTP request, therefore we can use it when generating our site. For example we can show different information to a logged in user than someone who hasn’t logged in.
+
+Logging someone out is as easy as setting the session to `nil`
+
+`nil` is a fancy idea meaning the absence of anything. Other languages have similar concepts such as ‘null’ or ‘undefined’
+
+## Helper functions
+
+Remember DRY: Don’t repeat yourself. If at any point you find yourself rewriting the same code over again think if there isn’t a way that you can use a method to save yourself duplication. 
+
+Methods that end with a `?` imply that the method returns a boolean, that is true or false. The question mark isn’t required, but it is a useful indicator to what the function does.
+
+Placing a `!` (often called a Bash in this use) before a boolean means do the opposite, so `!true == false`
+
+
+[Slides](https://docs.google.com/presentation/d/1RHzifgkjeyvk1aofI3rHxU-7xNghxzNcGjX7VTEYDos/edit?usp=sharing)
+
+[Video](https://youtu.be/wdwW1_sQjwU)
